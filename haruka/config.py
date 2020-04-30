@@ -11,8 +11,8 @@ class Config(object):
 
     # REQUIRED
     API_KEY = ""
-    OWNER_ID = "1116223246"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "CRAZYHAX"
+    OWNER_ID = "1079559019"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "TheLunero"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
@@ -20,12 +20,12 @@ class Config(object):
     LOAD = []
     NO_LOAD = ['translation', 'sed']
     WEBHOOK = ANYTHING
-    URL = "https://itsflashbot.herokuapp.com"
+    URL = "https://obengsubmanager.herokuapp.com"
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [1079559019]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [920874748]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [920874748]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     MAPS_API = ''
     CERT_PATH = None
     PORT = 5000
