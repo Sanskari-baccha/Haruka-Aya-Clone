@@ -8,7 +8,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/technicalhackerz/Haruka-Aya-Clone",
+  "repository": "https://github.com/tldr-cell/Haruka-Aya-Clone",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -20,11 +20,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1116223246"
+      "value": "1079559019"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "CRAZYHAX"
+      "value": "TheLunero"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
@@ -36,19 +36,19 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "-349749825"
+      "value": "-1001272530841"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "686021814"
+      "value": "1079559019"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "686021814"
+      "value": "1079559019"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "686021814"
+      "value": "1079559019"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
